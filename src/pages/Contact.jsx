@@ -52,7 +52,6 @@ const Contact = ({ handleOrderPopup }) => {
 
   return (
     <div className="pt-16 pb-10 dark:bg-slate-900 dark:text-white duration-200">
-      <Banner title="Contact Us" />
 
       {/* Contact Section */}
       <div className="container mx-auto py-16">

@@ -151,7 +151,6 @@ const MensWear = ({ handleOrderPopup }) => {
   return (
     <div className="pt-16 pb-10 dark:bg-slate-900 dark:text-white duration-200">
       {/* Banner */}
-      <Banner title="Men's Wear Collection" />
 
       <div className="container mx-auto py-10">
         {/* Hero section */}
@@ -329,6 +328,7 @@ const MensWear = ({ handleOrderPopup }) => {
             </div>
           )}
         </div>
+        <Banner title="Men's Wear Collection" />
 
         {/* Subscribe Section */}
         <Subscribe />

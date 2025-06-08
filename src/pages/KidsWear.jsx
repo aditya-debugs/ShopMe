@@ -101,7 +101,6 @@ const KidsWear = ({ handleOrderPopup }) => {
   return (
     <div className="pt-16 pb-10 dark:bg-slate-900 dark:text-white duration-200">
       {/* Banner */}
-      <Banner title="Kids Wear Collection" />
 
       <div className="container mx-auto py-16">
         {/* Header section */}
@@ -218,6 +217,7 @@ const KidsWear = ({ handleOrderPopup }) => {
             </div>
           ))}
         </div>
+        <Banner title="Kids Wear Collection" />
 
         {/* No products message */}
         {filteredProducts.length === 0 && (
